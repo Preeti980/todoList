@@ -1,0 +1,85 @@
+.todo{
+    /* display:inline-flexbox; */
+    flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 600px;
+  min-height: 600px;
+  background: #161a2b;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+.todo-form{
+    margin-bottom: 32px;
+}
+.todo-input{
+    padding: 14px 32px 14px 16px;
+  border-radius: 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  margin-left: 20px;
+}
+.addtask{
+     
+        padding: 16px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        outline: none;
+        background: linear-gradient(
+          90deg,
+          rgba(93, 12, 255, 1) 0%,
+          rgba(155, 0, 250, 1) 100%
+        );
+        color: #fff;
+        text-transform: capitalize;
+      margin: 10px;
+      width: 100px;
+      
+}
+.Todo-list{
+    font-size: 20px;
+}
+.allTodos{
+  list-style: none;
+  margin: 0;
+  padding: 0 ;
+}
+.singleTodo{
+  border-radius: 50px;
+  margin: 10px 30px;
+  background-color: #5dadf8;
+  padding: 10px 20px;
+  display: flex;
+  width: 500px;
+  align-items: center;
+}
+.todoText {
+  flex: 1; /* used all content in same column */
+  color:black ;
+  font-weight: 650;
+}
+.todo-delete{
+    background-color: red;
+    border-radius: 30px;
+    margin:10px;
+    padding: 10px;
+    
+  
+}
+.todo-mark{
+  background-color:cadetblue;
+  border-radius: 25px;
+  width: 180px;
+  margin:10px;
+  padding: 10px;
+ 
+}
+.todo-upperCase{
+  background-color:lightsalmon;
+  border-radius: 25px;
+}
